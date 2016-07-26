@@ -26,7 +26,7 @@ Implemened CATEGORY's:
 
 - SM: Explore SARAH feautures
 - SimplifiedDM: Simplified Dark Matter Models
-- radinert:  Models with radiative neutrino masses and dark matter candidates with SM + Z2-odd particles
+- radinert:  Models with radiative neutrino masses and dark matter candidates with SM + Z2-odd particles 
 
 Each implemented model have a notebook in tests dir:
 
