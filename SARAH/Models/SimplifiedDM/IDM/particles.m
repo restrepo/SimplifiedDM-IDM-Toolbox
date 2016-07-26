@@ -91,8 +91,13 @@ ParticleDefinitions[GaugeES] = {
       {Fu,   { Description -> "Up-Quarks"}},
       {Fe,   { Description -> "Leptons" }},
       {Fv,   { Description -> "Neutrinos" }},
-      {Fre,  {Description ->"Vector-like charged fermions",PDG -> {210000601},PDG.IX -> {-111100601},Mass -> {LesHouches},Width -> {External},LaTeX -> "R_e",           ElectricCharge -> -1,OutputName -> "Re"}},
-      {Chi,  {Description ->"Vector-like neutral fermions",PDG -> {1012,1014,1016},PDG.IX -> {111100701,111100702,111100703},Mass -> {LesHouches,LesHouches,LesHouches},Width -> {External,External,External},LaTeX ->"\\tilde{\\chi}^0",ElectricCharge -> 0,OutputName -> "Chi"}}
+      {Chi,  { Description -> "Singlet Fermions",
+	       PDG -> {1012,1014,1016},
+	       Mass -> LesHouches,
+	       ElectricCharge -> 0,
+	       LaTeX -> "N",
+	       OutputName -> "N" }}
+
 };
 
 WeylFermionAndIndermediate =
@@ -117,9 +122,5 @@ WeylFermionAndIndermediate =
    {X0,     {LaTeX -> "X^0"}},
    {VL,     {LaTeX -> "V_L" }},
    {n,      {LaTeX -> "N" }},
-   {nR,     {LaTeX -> "\\nu_R" }},
-   {rd,     {LaTeX -> "R^d" }},  
-   {ru,     {LaTeX -> "R^u" }}, 
-   {vd,     {LaTeX -> "R_v^d" }},
-   {vu,     {LaTeX -> "R_v^u" }}
+   {nR,     {LaTeX -> "\\nu_R" }}
 };
