@@ -2,13 +2,14 @@ Off[General::spell]
 
 Model`Name      = "SimplifiedDMIDM";
 Model`NameLaTeX = "Inert doublet Model";
-Model`Authors   = "N. Rojas, A. Vicente";
-Model`Date      = "2015-04-28";
+Model`Authors   = "D. Restrepo: Based on Sctogogenic by N. Rojas, A. Vicente";
+Model`Date      = "2016-07-27";
 
 (* "28-04-2015 (first implementation)" *)
 (* "25-05-2015 (removed mixings in scalar sector)" *)
 (* "10-06-2015 (fixed conventions)" *)
 (* Following the conventions of hep-ph/0603188 *)
+(* 2016: IDM only following the conventions of arXiv:1003.3125  *)
 
 
 (*------------Particle Content---------------*)
